@@ -25,9 +25,10 @@ Discount Data: The 'discount_data.csv' file contains the basic product discount 
 
 ## Exploratory Data Analysis
 EDA involved exploring the sales data to answer key questions such as:
--What is the monthly and annual Revenue(millions) by Brand?
--What is the Revenue figure(millions) and percentage by Discount Band(None, Low, Medium, High)?
--What is the Total Cost of production per Brand compared to the Total Revenue?
+
+- What is the monthly and annual Revenue(millions) by Brand?
+- What is the Revenue figure(millions) and percentage by Discount Band(None, Low, Medium, High)?
+- What is the Total Cost of production per Brand compared to the Total Revenue?
 
 ## Data Analysis
 ```
