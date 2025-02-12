@@ -11,7 +11,7 @@
 ### 8)Limitations
 
 ## Introduction
-A simple product analytics project, aimed at providing insights into key product performance performance metrics, such as Revenue per Discount Band, Annual Revenue per product Brand, as well as the Total Cost copmared to the Revenue per Brand.
+A simple product analytics project, aimed at providing insights into key product performance performance metrics, such as Revenue per Discount Band, Annual Revenue per product Brand, as well as the Total Cost compared to the Revenue per Brand.
 
 ## Data Sources
 Product Data: The 'Product_data.csv' file contains the basic characteristics of the products such as Brand(Product), Cost Price and Sale Price.
