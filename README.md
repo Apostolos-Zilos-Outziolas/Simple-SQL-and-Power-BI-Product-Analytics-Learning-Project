@@ -30,18 +30,8 @@ EDA involved exploring the sales data to answer key questions such as:
 - What is the Revenue figure(millions) and percentage by Discount Band(None, Low, Medium, High)?
 - What is the Total Cost of production per Brand compared to the Total Revenue?
 
-## Data Analysis
-```
-SELECT ...
-(`Sale Price`*`Units Sold`) as Revenue,
-(`Cost Price`*`Units Sold`) as Total_Cost,
-date_format(Date, '%Y') as year,
-date_format(Date, '%M') as month
-FROM product_data
-join product_sales on product_data.`Product ID`=product_sales.Product
-```
-The column Revenue and Total_Cost were created by multiplying column 'Sale Price' from 'product_data.csv' with column 'Units Sold' from 'product_sales.csv'
-and column 'Cost Price' from 'product_data.csv' with column 'Units Sold' from 'product_sales.csv', made possible by joining the two tables on the columns 'Product ID' and 'Product' of the 'product_data.csv' file and 'product_sales.csv' file.
+## Data Analysis-Visualzation
+![product analytics](https://github.com/user-attachments/assets/7cd3fe70-a01c-41b2-b8bc-fc879074885e)
 
 ## Results/Findings
 1. The biggest percentage of the revenue came from items that had a High Discount Band(34.93%), closely followed by products with a medium Discount Band(34.52%),
